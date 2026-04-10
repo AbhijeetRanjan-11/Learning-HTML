@@ -43,7 +43,7 @@ and line breaks
 Semantic HTML refers to using HTML tags that clearly describe the meaning and purpose of the content they contain, instead of just defining how it looks.
 Earlier web development practices heavily relied on generic `<div>` containers with classes to segment page parts like header, navigation bar, content, and footer. This approach, while functional, lacked clarity and semantic meaning.
 
-To improve clarity and ease of maintenance, HTML introduced semantic tags such as:
+Examples include Semantic tags like:
     
 - `<header>`
 - `<nav>`
