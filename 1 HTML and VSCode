@@ -5,16 +5,6 @@
 - This tutorial series aims to teach HTML quickly and effectively, focusing on practical coding rather than heavy theory.
 - The tutorial is delivered in **Hindi**, making it easier for native speakers to understand.
 
----
-
-### Setting Up the Environment: Tools and Workflow
-
-- The primary software used is **Visual Studio Code (VS Code)**, chosen for its availability on Windows, Mac, and Linux.
-- Alternative editors mentioned include **Sublime Text** and **Atom**, but VS Code is preferred because it comes pre-configured for web development.
-- The tutorial recommends creating a **dedicated folder on your desktop** to store all HTML files to maintain a proper file structure.
-- **Dragging and dropping the folder into VS Code** is the suggested method to open the project, as opening a folder (not just a single file) allows proper server simulation and file serving.
-
----
 
 ### Writing the First HTML File
 
