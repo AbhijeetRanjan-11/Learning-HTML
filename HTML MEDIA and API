@@ -1,0 +1,46 @@
+### Key Insights on HTML Media Integration
+
+- **HTML `<video>` and `<audio>` tags** allow embedding media files directly hosted on your server.
+- A major distinction exists between embedding a video using the `<video>` tag versus embedding it through an `<iframe>`:
+  - `<video>` tag requires the media file to reside on the **same server or directory** as your HTML files.
+  - `<iframe>` opens a window to third-party content (e.g., YouTube, Vimeo), offloading server load to the external website.
+- Correct **file path referencing** is crucial for media to load properly:
+  - Using relative paths like `./video.mp4` works when the media file lies inside the served directory.
+  - Improper directory structure or serving files outside the live server root causes media loading failures.
+- Important attributes for `<video>` include:
+  - **`src`** or nested `<source>` tag for specifying media files.
+  - **`width`** and **`height`** to define display dimensions (e.g., width = 320, height = 240).
+  - **`autoplay`**, **`muted`**, and **`controls`** to control playback behavior and user interface.
+- `<audio>` tag usage is similar but typically requires fewer dimension controls.
+- Browsers provide default media controls (play, pause, volume) which can be customized later using JavaScript for advanced functionality.
+- The video emphasizes common beginner mistakes around file paths and server setup when embedding media.
+
+
+### Clarification on HTML APIs and Browser Features
+
+- HTML alone **cannot access browser APIs or local resources** such as:
+  - **Geolocation API**
+  - **Drag and Drop API**
+  - **Canvas API**
+- These functionalities require **JavaScript** to operate, as HTML by itself is a markup language and lacks programming capabilities.
+- Many tutorials or articles incorrectly claim these APIs are purely HTML features; the video confirms this is **not true**.
+- The Canvas element is part of HTML but rendering graphics or text on it requires JavaScript code.
+- The video serves as a **"myth buster"**, clarifying that HTML is foundational for structuring pages but **JavaScript is essential** for interactive or API-driven features.
+
+
+### Technical Details & Definitions
+
+| Term/Attribute      | Description                                                                                      |
+|--------------------|------------------------------------------------------------------------------------------------|
+| `<video>` tag      | Embeds video files stored on the same server; requires proper file path and media attributes    |
+| `<audio>` tag      | Embeds audio files with controls and autoplay/muted options                                     |
+| `<iframe>` tag     | Embeds third-party content by opening a window to an external source, reducing server load      |
+| `src`             | Attribute specifying the path to media file                                                    |
+| `width` & `height` | Define media display dimensions                                                                |
+| `autoplay`         | Automatically starts media playback upon page load                                             |
+| `muted`            | Mutes audio output by default                                                                   |
+| `controls`         | Displays default playback controls (play, pause, volume)                                       |
+| Drag and Drop API  | Browser API for drag-and-drop interactions; requires JavaScript                                 |
+| Canvas API         | Graphics rendering API; requires JavaScript for drawing                                        |
+| Geolocation API    | Browser API to get user's geographical location; accessible only via JavaScript                  |
+
