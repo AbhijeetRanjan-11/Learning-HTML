@@ -1,0 +1,67 @@
+### Key Topics Covered
+
+- **HTML Comments**
+  - Comments are essential for documenting code without affecting webpage display.
+  - Single-line and multi-line comments can be created using the shortcut **Ctrl + /**.
+  - Proper syntax for comments: `<!-- comment here -->`.
+  - Comments appear in the page source but are not rendered on the live webpage.
+  - Interview relevance: Understanding comment syntax is often tested.
+
+- **Basic Text Formatting Tags**
+  - Common tags include:
+    - `<b>` for bold text (used for simple styling without semantic emphasis).
+    - `<strong>` for strongly emphasized (important) text; preferred for semantic meaning.
+    - `<i>` for italic text.
+    - `<em>` for emphasized text (similar to `<i>`, but semantic).
+  - The instructor compares `<b>` and `<strong>`, explaining that `<strong>` carries semantic importance which impacts accessibility and SEO, whereas `<b>` is purely visual.
+  - `<em>` and `<i>` are also similar but `<em>` has semantic importance.
+
+- **Additional Text Tags Introduced**
+  - `<small>` for smaller text size.
+  - `<sub>` and `<sup>` for subscript and superscript text respectively, useful in scientific notations (e.g., chemical formulas like H₂O).
+  - `<del>` for deleted text (strikethrough).
+  - `<mark>` for highlighted text (used often in sales/discount contexts).
+
+- **HTML Attributes**
+  - Attributes modify element behavior or appearance.
+  - The video focuses on the **`style` attribute** for inline CSS styling.
+    - Example: `style="text-align: center; background-color: green;"`.
+    - Multiple CSS properties can be added separated by semicolons.
+  - Importance of readable formatting in inline styles for maintainability.
+  - Other common global attributes mentioned include:
+    - `title` (tooltip text).
+    - `class` (CSS class names).
+    - `autofocus`, `accesskey`, `autocapitalize`.
+  - The instructor encourages reading official HTML documentation to explore global attributes and styling properties further.
+
+- **Practical Exercises and Assignments**
+  - Use comments effectively.
+  - Experiment with text formatting tags and observe differences in appearance and semantics.
+  - Write examples using `<sub>`, `<sup>`, `<del>`, and `<mark>`.
+  - Explore the documentation for attributes and try applying inline styles.
+
+
+### Text Formatting Tags
+
+| Tag       | Purpose                                          | Semantic Importance        | Visual Effect                |
+|-----------|-------------------------------------------------|---------------------------|------------------------------|
+| `<b>`     | Bold text (visual only)                          | No                        | Bold                         |
+| `<strong>`| Strong emphasis (important content)             | Yes                       | Bold                         |
+| `<i>`     | Italic text (visual only)                        | No                        | Italic                       |
+| `<em>`    | Emphasized text (semantic emphasis)             | Yes                       | Italic                       |
+| `<small>` | Smaller text size                                | No                        | Smaller font size            |
+| `<sub>`   | Subscript text (e.g., chemical formulas)        | Yes                       | Lowered smaller text         |
+| `<sup>`   | Superscript text (e.g., exponents)               | Yes                       | Raised smaller text          |
+| `<del>`   | Deleted/strikethrough text                       | Yes                       | Strikethrough                |
+| `<mark>`  | Highlighted text (e.g., for emphasis or sales)  | Yes (highlight)            | Background highlight (yellow)|
+
+---
+
+### Important Insights
+
+- **Comments** are crucial for code documentation and debugging without affecting the web page’s output.
+- Semantic tags like `<strong>` and `<em>` are preferred over purely visual tags (`<b>`, `<i>`) for better accessibility and SEO.
+- Inline styling using the `style` attribute is useful for quick, element-specific styling but should be used thoughtfully for readability and maintainability.
+- Exploring official **HTML documentation** is essential to understand the wide range of global attributes and styling options.
+- Proper heading hierarchy (only one `<h1>` per page) is important for document structure and accessibility.
+
